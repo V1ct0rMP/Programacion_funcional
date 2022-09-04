@@ -28,5 +28,5 @@ m_i = [6,9,7,10] #Se crea una lista con elementos de tipo entero(int) la cual al
 
 ancho=15 #Se le asigna el valor de separacion entre elementos a una variable que se encarge de acomodar de la mejor forma los elementos
 print(f"{e[0]:^{ancho}}{e[1]:^{ancho}}{e[2]:^{ancho}}{e[3]:^{ancho}}") #Se imprime mediante fstring nuestra pequeña base de datos, se utiliza la variable de separacion para hacer mas estetica la base de datos
-for i in range(len(alumnos)): #Se recorre la lista de alumnos para ingresar a cada elemento de ella
-print(f"{alumnos[i]:<{ancho}}{m_e_d[i]:^{ancho}}{m_p_f[i]:^{ancho}}{m_i[i]:^{ancho}}") #Se asigna mediante fstring el valor de la calificacion a cada alumno y al final se imprime la base de datos
+for i in range(len(alumnos)): #Se recorre la lista de alumnos para ingresar a cada elemento de ella}
+   print(f"{alumnos[i]:<{ancho}}{m_e_d[i]:^{ancho}}{m_p_f[i]:^{ancho}}{m_i[i]:^{ancho}}") #Se asigna mediante fstring el valor de la calificacion a cada alumno y al final se imprime la base de datos
