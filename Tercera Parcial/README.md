@@ -14,3 +14,8 @@ defmodule Calculadora do
   end
 end
 ```
+### 1.3 Implementacion
+```elixir
+IO.inspect(Calculadora.div(5,0))
+IO.inspect(Calculadora.div(5,3))
+```
