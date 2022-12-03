@@ -10,7 +10,7 @@ defmodule Calculadora do
     {:error, "No se puede dividir por 0"}
   end
   def div(n1,n2) do
-    {:ok, "El resultado es: #{n1/n2}"}
+    {:ok, "El resultado es: #{n1/n2}"
   end
 end
 ´´´
