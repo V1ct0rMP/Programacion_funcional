@@ -19,3 +19,9 @@ end
 IO.inspect(Calculadora.div(5,0))
 IO.inspect(Calculadora.div(5,3))
 ```
+### 1.4 salida
+```
+>elixir main.ex
+{:error, "No se puede dividir por 0"}
+{:ok, "El resultado es: 1.6666666666666667"}
+```
