@@ -1,2 +1,2 @@
 # Programacion_funcional
-Programas de la clase  del profe Walter
+Programas elaborados en las clases de programacion del maestro Walter
